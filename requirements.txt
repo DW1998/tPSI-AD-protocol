@@ -1,0 +1,10 @@
+Pillow
+numpy
+onnx
+onnx_tf
+scipy
+tensorflow
+PySimpleGUI
+matplotlib
+onnxruntime
+pycryptodome
