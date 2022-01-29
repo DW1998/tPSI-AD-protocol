@@ -44,7 +44,7 @@ else:
     try:
         shutil.rmtree(util.clients_dir)
         os.mkdir(util.clients_dir, 0o777)
-        print(f"Deleted contents in folder {util.clients_dir}%s")
+        print(f"Deleted contents in folder {util.clients_dir}")
     except Exception as exe:
         print(f"Failed to delete {util.clients_dir} because of {exe}")
     try:
